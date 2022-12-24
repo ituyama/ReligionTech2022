@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100;300;400;500;700;900&display=swap');
+nav{
+  
+
+    backdrop-filter:blur(5px);
+}
+.navbar-brand{
+    color: #227082;
+    font-family: 'Noto Sans JP', sans-serif;
+    font-weight: 800;
+}
+body{
+    font-family: 'Noto Sans JP', sans-serif;
+}
+.nav-item{
+    color: rgb(112, 112, 112);
+}
+
+:active.navbar-brand{
+        color: #DCE003;
+    font-family: 'Noto Sans JP', sans-serif;
+}
+.title{
+    color: #2F3656;
+    font-weight: 100;
+    font-size: 40px;
+}
+.margin-top{
+    margin-top: 160px;
+}
+.margin-top-200{
+    margin-top: 200px;
+}
+.main-margin{
+    margin-bottom: 230px;
+}
+.sub-title{
+        color: #2F3656;
+    font-weight: 100;
+    font-size: 20px;
+}
+.mains{
+    min-height: 100vh;
+}
+.back{
+    position: absolute;
+    max-width: 90vw;
+    border-radius: 40% 60% 39% 61% / 74% 40% 60% 26%;
+width: 100%;
+}
+.btn-donates {
+    font-size: 30px;
+    font-weight: 100;
+     backdrop-filter:blur(5px);
+    color: black;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 25px 50px -12px;
+}
+:active.btn {
+        color: #DCE003;
+}
+.navbar{
+    border-radius: 10px;
+    margin: 20px;
+    
+}
+.flow{
+    position: fixed;
+    right:30px;
+    bottom: 20px;
+}
+.twitter-tweet{
+    background-color: rgba(216, 244, 242, 0.607);
+
+}
+.card{
+    margin-top: 20px;
+    border: none;
+    border-radius: 10px;
+    max-width: 80vw;
+     background-color: #ffffffe0;
+}
+.card-img-top{
+    border-radius: 10px 10px 0px 0px;
+}
+.background {
+  position: absolute;
+  display: block;
+  top: 0;
+  left: 0;
+  z-index: 0;
+}
+
+.rev{
+    mix-blend-mode:difference;
+filter: invert(); 
+font-weight: 100;
+z-index: 20;
+font-size: 20px;
+}
+
+
+.about{
+
+    min-height: 100vh;
+    background-color: white;
+    backdrop-filter:initial;
+          background-size: cover;
+            /*--背景画像のサイズ--*/
+            background-attachment: fixed;
+            /*--背景画像の固定--*/
+            background-repeat: no-repeat;
+            /*--背景画像の繰り返し--*/
+            background-position: center center;
+}
